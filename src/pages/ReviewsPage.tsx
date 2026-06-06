@@ -102,14 +102,6 @@ export default function ReviewsPage({ onNavigate }: ReviewsPageProps) {
             We are a small, independently run Southeast Idaho contractor business. Your direct feedback fuels our business. Share your experience with your neighbors!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
-            <a
-              href="https://business.facebook.com/latest/?asset_id=934140323123236"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-brand-orange hover:bg-brand-amber text-white hover:text-brand-navy font-display uppercase font-bold tracking-widest text-xs rounded transition-colors cursor-pointer"
-            >
-              Post A Review on Facebook
-            </a>
             <button
               onClick={() => onNavigate('contact')}
               className="px-6 py-3 bg-transparent border-2 border-white hover:bg-white hover:text-brand-navy text-white font-display uppercase font-bold tracking-widest text-xs rounded transition-all cursor-pointer"

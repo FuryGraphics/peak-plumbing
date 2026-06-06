@@ -5,9 +5,7 @@ import {
   Phone,
   Mail,
   Clock,
-  ExternalLink,
   ShieldCheck,
-  Facebook,
   Wrench
 } from 'lucide-react';
 import { assets } from '../utils/images';
@@ -102,23 +100,6 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
                 </div>
               </div>
 
-              <div className="space-y-1.5 pt-4 border-t border-gray-200/50 sm:border-t-0 sm:pt-0">
-                <div className="flex gap-2 items-center text-brand-navy">
-                  <Facebook className="w-5 h-5 text-brand-orange" />
-                  <span className="font-display text-xs uppercase font-bold tracking-wider">Social Hub</span>
-                </div>
-                <div className="pl-7">
-                  <a
-                    href="https://business.facebook.com/latest/?asset_id=934140323123236"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-xs text-brand-navy font-bold hover:text-brand-orange transition-colors"
-                  >
-                    <span>Facebook Profile</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-                </div>
-              </div>
             </div>
 
             {/* Operating hours table layout */}

@@ -3,7 +3,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  Facebook,
   Wrench,
   ShieldCheck,
   LifeBuoy,
@@ -181,19 +180,6 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
           </div>
 
-          <div className="pt-4 border-t border-brand-slate">
-            <p className="text-xs text-gray-400 uppercase tracking-widest mb-3.5 font-sans font-semibold">Join Travis on Facebook</p>
-            <a
-              href="https://business.facebook.com/latest/?asset_id=934140323123236"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 hover:scale-105 bg-brand-slate hover:bg-brand-orange text-white px-4 py-2.5 rounded shadow transition-all uppercase tracking-wider text-xs font-bold"
-              id="footer-facebook-link"
-            >
-              <Facebook className="w-4 h-4 fill-white" />
-              <span>Facebook Page</span>
-            </a>
-          </div>
         </div>
       </div>
 
