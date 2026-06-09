@@ -47,10 +47,10 @@ export default function LeadForm({ type, defaultService = 'repair', onSuccessNav
             <Mail className="w-8 h-8" />
           </div>
           <h3 className="font-display text-2xl text-white uppercase tracking-wide">
-            {type === 'quote' ? 'Get a Free Quote' : 'Contact Travis Directly'}
+            {type === 'quote' ? 'Get a Free Quote' : 'Contact Us Directly'}
           </h3>
           <p className="text-xs text-gray-400 font-sans mt-2 max-w-sm mx-auto">
-            We have simplified our inquiries. Skip the forms and email Travis with your project details or site photos directly.
+            We have simplified our inquiries. Skip the forms and email our team with your project details or site photos directly.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function LeadForm({ type, defaultService = 'repair', onSuccessNav
               href={`tel:${phone.replace(/[^0-9+]/g, '')}`}
               className="py-2 px-4 bg-transparent hover:bg-white hover:text-brand-navy text-white text-xs font-mono uppercase tracking-widest font-extrabold border border-white rounded transition-colors whitespace-nowrap text-center w-full sm:w-auto"
             >
-              Call Travis
+              Call Us
             </a>
           </div>
         </div>

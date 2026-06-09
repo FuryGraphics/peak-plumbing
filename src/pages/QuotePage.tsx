@@ -17,11 +17,11 @@ export default function QuotePage({ onNavigate }: QuotePageProps) {
   const estimationRules = [
     {
       title: 'No surprise fees',
-      desc: 'Travis Zohner supplies comprehensive itemized estimates before striking any pipeline. If issues arise during repair, we consult you first.'
+      desc: 'Peak Plumbing supplies comprehensive itemized estimates before striking any pipeline. If issues arise during repair, we consult you first.'
     },
     {
       title: 'Snapshot Diagnostics',
-      desc: 'Our interactive uploader below lets you attach photos of leaking valves or standard hot water heater plates. Travis can audit these visual details to immediately unpack precise parts lists.'
+      desc: 'Our interactive uploader below lets you attach photos of leaking valves or standard hot water heater plates. Our team can audit these visual details to immediately unpack precise parts lists.'
     },
     {
       title: 'Compliant & Safe',
@@ -45,7 +45,7 @@ export default function QuotePage({ onNavigate }: QuotePageProps) {
             Get A Free Quote
           </h1>
           <p className="text-sm sm:text-base text-gray-300 max-w-xl mx-auto font-sans leading-relaxed">
-            Outline your home leak or heating project below. Travis and our crew will evaluate visual and address specs to draft transparent estimates.
+            Outline your home leak or heating project below. Our crew will evaluate visual and address specs to draft transparent estimates.
           </p>
         </div>
       </section>

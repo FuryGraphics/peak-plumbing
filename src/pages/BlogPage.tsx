@@ -24,7 +24,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
             Plumbing Tips & News
           </h1>
           <p className="text-sm sm:text-base text-gray-300 max-w-xl mx-auto font-sans leading-relaxed">
-            Homeowner tips, DIY winterizing guides, and technical insights from Travis Zohner on maintaining flawless peak performance.
+            Homeowner tips, DIY winterizing guides, and technical insights from our team on maintaining flawless peak performance.
           </p>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
             Do You Need Proactive Maintenance Today?
           </h2>
           <p className="text-xs text-gray-300 font-sans max-w-md mx-auto leading-relaxed">
-            Don’t wait for a freezing winter burst before scheduling lines inspections. Save yourself time and money by booking a checkup with Travis.
+            Don’t wait for a freezing winter burst before scheduling lines inspections. Save yourself time and money by booking a checkup with our team.
           </p>
           <div className="pt-2">
             <button

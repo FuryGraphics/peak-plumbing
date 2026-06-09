@@ -97,7 +97,7 @@ export default function ReviewsPage({ onNavigate }: ReviewsPageProps) {
       <section className="bg-brand-navy text-white text-center py-16 px-6 md:px-8 border-t border-brand-orange">
         <div className="max-w-2xl mx-auto space-y-6">
           <MessageSquare className="w-12 h-12 text-brand-amber mx-auto animate-bounce" />
-          <h2 className="font-display font-bold uppercase text-2xl sm:text-3xl text-white">Were You Blown Away By Travis’s Service?</h2>
+          <h2 className="font-display font-bold uppercase text-2xl sm:text-3xl text-white">Were You Blown Away By Our Service?</h2>
           <p className="text-xs text-gray-300 font-sans leading-relaxed max-w-md mx-auto">
             We are a small, independently run Southeast Idaho contractor business. Your direct feedback fuels our business. Share your experience with your neighbors!
           </p>

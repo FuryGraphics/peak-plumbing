@@ -7,7 +7,7 @@ export const faqs: FAQItem[] = [
     category: 'Water Quality'
   },
   {
-    question: 'Are Travis Zohner and Peak Plumbing Company Inc licensed and insured?',
+    question: 'Is Peak Plumbing Company Inc licensed and insured?',
     answer: 'Absolutely. We are fully licensed, bonded, and insured in the state of Idaho to perform both residential and commercial contracting. This protects your home, your family, and our team. We abide strictly by all uniform plumbing codes and safety standards.',
     category: 'Company Info'
   },

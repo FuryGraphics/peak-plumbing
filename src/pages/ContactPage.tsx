@@ -41,7 +41,7 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
             Contact Peak Plumbing
           </h1>
           <p className="text-sm sm:text-base text-gray-300 max-w-xl mx-auto font-sans leading-relaxed">
-            Reach Travis and our administrative supervisors easily. Standard scheduling, emergency repairs, or detailed service estimates.
+            Reach our team and administrative supervisors easily. Standard scheduling, emergency repairs, or detailed service estimates.
           </p>
         </div>
       </section>

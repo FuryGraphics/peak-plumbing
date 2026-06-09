@@ -32,7 +32,7 @@ export default function FAQPage({ onNavigate }: FAQPageProps) {
             Frequently Asked Questions
           </h1>
           <p className="text-sm sm:text-base text-gray-300 max-w-xl mx-auto font-sans leading-relaxed">
-            Get straightforward answers directly from Travis Zohner regarding rates, municipal code compliance, and hard water.
+            Get straightforward answers directly from our team regarding rates, municipal code compliance, and hard water.
           </p>
         </div>
       </section>
@@ -89,7 +89,7 @@ export default function FAQPage({ onNavigate }: FAQPageProps) {
             Have A Different Plumbing Dilemma?
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed max-w-lg mx-auto">
-            Every home is wired and piped differently. If you are facing a technical issue not addressed here, contact Travis or fill out a quote request sheet.
+            Every home is wired and piped differently. If you are facing a technical issue not addressed here, contact us or fill out a quote request sheet.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <a

@@ -6,7 +6,7 @@ export const cities: CitySEO[] = [
     id: 'pocatello',
     name: 'Pocatello',
     headline: 'Pocatello’s Trusted Local Plumber',
-    description: 'Operating directly out of Pocatello, Peak Plumbing Company Inc provides premier residential and commercial services to our home base. From historic bungalows near ISU with aging galvanized iron pipelines to modern custom homes in the University Area and Johnny Creek, Travis and the crew deliver the rugged expertise required to handle high mineral concentrations and deep winter frosts.',
+    description: 'Operating directly out of Pocatello, Peak Plumbing Company Inc provides premier residential and commercial services to our home base. From historic bungalows near ISU with aging galvanized iron pipelines to modern custom homes in the University Area and Johnny Creek, our crew delivers the rugged expertise required to handle high mineral concentrations and deep winter frosts.',
     highlights: [
       'Fast, same-day local response for Pocatello residents',
       'Extensive experience with historic home renovation and copper piping and drain systems',
@@ -36,7 +36,7 @@ export const cities: CitySEO[] = [
     id: 'blackfoot',
     name: 'Blackfoot',
     headline: 'Expert Plumber in Blackfoot, Idaho',
-    description: 'As the potato capital of the region, Blackfoot stands as a core community within Peak Plumbing’s service area. With a mix of agricultural facilities, historic downtown venues, and rural residences, pipeline needs vary wildly. Travis Zohner specializes in providing adaptable, tough plumbing designs—be it rural well pump connections, water softeners for high-sediment lines, or commercial maintenance.',
+    description: 'As the potato capital of the region, Blackfoot stands as a core community within Peak Plumbing’s service area. With a mix of agricultural facilities, historic downtown venues, and rural residences, pipeline needs vary wildly. Peak Plumbing specializes in providing adaptable, tough plumbing designs—be it rural well pump connections, water softeners for high-sediment lines, or commercial maintenance.',
     highlights: [
       'Comprehensive service coverage for both municipal water lines and well networks',
       'Hard water filtration units formulated for agricultural and rural residential wells',

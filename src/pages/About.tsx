@@ -19,7 +19,7 @@ export default function About({ onNavigate }: AboutProps) {
   const coreValues = [
     {
       title: 'Technical Mastery',
-      desc: 'Travis Zohner does not believe in shortcuts or quick band-aid fixes. We build and repair code-compliant lines designed to endure freezing conditions and high water mineral pressure.',
+      desc: 'We do not believe in shortcuts or quick band-aid fixes. We build and repair code-compliant lines designed to endure freezing conditions and high water mineral pressure.',
       icon: Wrench
     },
     {
@@ -47,7 +47,7 @@ export default function About({ onNavigate }: AboutProps) {
         <div className="relative max-w-4xl mx-auto space-y-3 z-10 animate-fadeIn">
           <span className="text-xs font-mono font-bold tracking-widest text-brand-amber uppercase">Get to Know Peak Plumbing</span>
           <h1 className="font-display font-extrabold text-3xl sm:text-5xl uppercase tracking-wider text-white">
-            Travis Zohner’s Story
+            Our Story
           </h1>
           <p className="text-sm sm:text-base text-gray-300 max-w-xl mx-auto font-sans leading-relaxed">
             Local owner, registered plumber, and direct provider of honest, high-end contractor services in Pocatello, Idaho.
@@ -63,7 +63,7 @@ export default function About({ onNavigate }: AboutProps) {
             <div className="absolute top-0 left-0 w-full h-full bg-brand-orange rounded-xl -rotate-2 transform scale-102 -z-10 opacity-10"></div>
             <img
               src={assets.bathroomRepair}
-              alt="Travis consulting plumbing setup"
+              alt="Plumber consulting plumbing setup"
               referrerPolicy="no-referrer"
               className="rounded-xl shadow-2xl w-full object-cover h-[450px]"
             />
@@ -83,16 +83,16 @@ export default function About({ onNavigate }: AboutProps) {
               Peak Plumbing Company Inc first took shape out of a simple observation: local Southeast Idaho families and business managers were struggling to find plumbers who showed up on schedule, communicated clearly, and performed durable, high-quality work.
             </p>
             <p className="text-sm font-sans text-gray-600 leading-relaxed">
-              Founded and operated by <strong>Travis Zohner</strong>, Peak Plumbing is deeply committed to Southeast Idaho. We understand the unique geomorphic realities of Idaho’s water supply—from the extremely high mineral grains flowing through Pocatello municipal systems to the heavy sand silt common in regional rural farming wells in American Falls and Blackfoot.
+              Locally owned and operated, Peak Plumbing is deeply committed to Southeast Idaho. We understand the unique geomorphic realities of Idaho’s water supply—from the extremely high mineral grains flowing through Pocatello municipal systems to the heavy sand silt common in regional rural farming wells in American Falls and Blackfoot.
             </p>
             <p className="text-sm font-sans text-gray-600 leading-relaxed">
-              Whether responding to a burst pipe emergency at midnight or engineering a commercial boiler replacement for a hotel in Lava Hot Springs, Travis and our licensed technicians bring unwavering professionalism, neat work habits, and straightforward pricing to every jobsite.
+              Whether responding to a burst pipe emergency at midnight or engineering a commercial boiler replacement for a hotel in Lava Hot Springs, our licensed technicians bring unwavering professionalism, neat work habits, and straightforward pricing to every jobsite.
             </p>
 
             <div className="pt-4 border-t border-gray-100 flex flex-wrap gap-4 items-center">
               <div>
-                <p className="font-display text-sm font-bold uppercase text-brand-navy">Travis Zohner</p>
-                <p className="text-xs text-gray-500 font-mono">Owner & Chief Operator</p>
+                <p className="font-display text-sm font-bold uppercase text-brand-navy">Peak Plumbing Company Inc</p>
+                <p className="text-xs text-gray-500 font-mono">Locally Owned & Operated</p>
               </div>
               <p className="hidden md:block text-xs font-mono text-brand-orange font-bold uppercase tracking-widest pl-4 border-l border-gray-200">
                 Pocatello, Chubbuck, & Beyond
@@ -133,7 +133,7 @@ export default function About({ onNavigate }: AboutProps) {
         <div className="relative max-w-3xl mx-auto space-y-6 z-10">
           <h2 className="text-2.5xl md:text-3.5xl uppercase text-white tracking-wide">Ready to Experience Peak Performance?</h2>
           <p className="text-sm text-gray-300 font-sans leading-relaxed max-w-xl mx-auto">
-            Reach out to Travis directly for standard scheduling, or submit our easy Quote request with snapshot attachments for straightforward pricing estimates.
+            Reach out to us directly for standard scheduling, or submit our easy Quote request with snapshot attachments for straightforward pricing estimates.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <button

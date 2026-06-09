@@ -75,7 +75,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
           </div>
           <p className="text-sm text-gray-400 leading-relaxed font-sans">
-            Owned and engineered by Travis Zohner, Peak Plumbing Company Inc provides top-tier residential and commercial pipe repair, filtration, and heating systems across Southeast Idaho.
+            Peak Plumbing Company Inc provides top-tier residential and commercial pipe repair, filtration, and heating systems across Southeast Idaho.
           </p>
           <div className="space-y-2.5 font-mono text-xs">
             <div className="flex items-center gap-2.5 text-gray-300">
@@ -162,7 +162,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             <div className="flex items-start gap-3">
               <Phone className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
               <div>
-                <p className="font-semibold text-white">Call Travis Directly</p>
+                <p className="font-semibold text-white">Call Us Directly</p>
                 <a href="tel:+12088971389" className="text-brand-amber hover:underline text-base font-bold block mt-0.5">
                   (208) 897-1389
                 </a>

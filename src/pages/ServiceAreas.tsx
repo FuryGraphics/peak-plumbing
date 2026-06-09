@@ -108,7 +108,7 @@ export default function ServiceAreas({ currentRoute, onNavigate }: ServiceAreasP
               </div>
               <h3 className="font-display uppercase text-white text-lg font-bold">Unsure if you’re within our 100-mile perimeter?</h3>
               <p className="text-xs text-gray-300 leading-relaxed font-sans">
-                If you are managing an agricultural parcel, historic property, or commercial lot in rural Power, Bannock, Bingham, or Oneida counties, we’ve got you covered. Submit your address to talk with Travis.
+                If you are managing an agricultural parcel, historic property, or commercial lot in rural Power, Bannock, Bingham, or Oneida counties, we’ve got you covered. Submit your address to talk with our team.
               </p>
             </div>
             <button
@@ -219,7 +219,7 @@ export default function ServiceAreas({ currentRoute, onNavigate }: ServiceAreasP
                 </div>
               </div>
               <p className="text-xs text-gray-300 font-sans leading-relaxed">
-                Travis Zohner regularly travels outward to {activeCity.name}. We bring all necessary copper lines, fittings, and testing equipment directly to your site. Let's get began.
+                Peak Plumbing regularly travels outward to {activeCity.name}. We bring all necessary copper lines, fittings, and testing equipment directly to your site. Let's get began.
               </p>
             </div>
 

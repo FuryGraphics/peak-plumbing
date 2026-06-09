@@ -6,7 +6,7 @@ export const services: Service[] = [
     id: 'repair',
     title: 'Plumbing Repair & Maintenance',
     shortDesc: 'Immediate fix for leaking pipes, running toilets, clogged fixtures, and general hardware wear-and-tear.',
-    longDesc: 'From the smallest drip to full-blown pipe replacements, Peak Plumbing restores stability to your home or commercial systems. Idaho winters can be incredibly harsh on pipelines, causing hidden damage and high water bills. Travis and our crew utilize state-of-the-art diagnostic gear to zero in on leaks and deliver permanent, rugged repairs that stand the test of time.',
+    longDesc: 'From the smallest drip to full-blown pipe replacements, Peak Plumbing restores stability to your home or commercial systems. Idaho winters can be incredibly harsh on pipelines, causing hidden damage and high water bills. Our crew utilizes state-of-the-art diagnostic gear to zero in on leaks and deliver permanent, rugged repairs that stand the test of time.',
     icon: 'Wrench',
     imageUrl: assets.orangeGlovesSinkTrap,
     benefits: [
@@ -66,7 +66,7 @@ export const services: Service[] = [
     id: 'emergency',
     title: 'Emergency Plumbing Service',
     shortDesc: 'Rapid dispatcher response for bursting water pipes, severe sewage backups, and catastrophic failures.',
-    longDesc: 'Plumbing disasters don’t wait for business hours. Burst pipes, failed sump pumps, and rising raw sewage require immediate intervention to protect your property from structural rot and electrical hazards. Peak Plumbing maintains an alert emergency action status, dispatching Travis or our licensed technicians with fully-stocked trucks to solve critical issues in record time.',
+    longDesc: 'Plumbing disasters don’t wait for business hours. Burst pipes, failed sump pumps, and rising raw sewage require immediate intervention to protect your property from structural rot and electrical hazards. Peak Plumbing maintains an alert emergency action status, dispatching our licensed technicians with fully-stocked trucks to solve critical issues in record time.',
     icon: 'AlertTriangle',
     imageUrl: assets.pipeWrenchUnderSink,
     benefits: [

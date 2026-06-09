@@ -30,7 +30,7 @@ export default function Home({ onNavigate }: HomeProps) {
   const stats = [
     { label: 'Licensed & Insured', desc: 'Full Idaho Compliance', icon: ShieldCheck },
     { label: 'Up to 100 Miles', desc: 'Pocatello out to Malad', icon: Compass },
-    { label: 'Local Owner', desc: 'Travis Zohner, Pocatello', icon: Award },
+    { label: 'Locally Owned', desc: 'Pocatello, Idaho', icon: Award },
     { label: 'Residential & Commercial', desc: 'Houses, cabins, office shops', icon: Users },
   ];
 
@@ -82,7 +82,7 @@ export default function Home({ onNavigate }: HomeProps) {
               id="hero-call-cta"
             >
               <Phone className="w-4 h-4 xs:w-5 h-5 animate-bounce shrink-0" />
-              <span>Call Travis Now</span>
+              <span>Call Us Now</span>
             </a>
             <button
               onClick={() => onNavigate('quote')}
@@ -193,7 +193,7 @@ export default function Home({ onNavigate }: HomeProps) {
             <div className="absolute -bottom-4 -right-4 w-40 h-40 bg-brand-navy rounded-lg -z-10"></div>
             <img
               src={assets.plumberUnderCabinets}
-              alt="Travis working on pipe fitting"
+              alt="Plumber working on pipe fitting"
               referrerPolicy="no-referrer"
               className="rounded-lg shadow-2xl w-full object-cover h-[450px]"
             />
@@ -209,7 +209,7 @@ export default function Home({ onNavigate }: HomeProps) {
             <h2 className="text-3xl md:text-4.5xl uppercase leading-none text-brand-navy">Why Southeast Idaho Trusts Peak Plumbing</h2>
             <div className="h-1.5 w-16 bg-brand-amber rounded"></div>
             <p className="text-sm text-gray-600 font-sans leading-relaxed">
-              We aren’t a distant, bloated franchise network that sends random subcontractors. Peak Plumbing Company Inc is a dedicated contractor business run directly by Travis Zohner. We live where you live, meaning we are intimately familiar with local water table variables and sub-zero freeze dynamics.
+              We aren’t a distant, bloated franchise network that sends random subcontractors. Peak Plumbing Company Inc is a dedicated, locally owned contractor business. We live where you live, meaning we are intimately familiar with local water table variables and sub-zero freeze dynamics.
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-sans text-gray-700">
@@ -236,7 +236,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 onClick={() => onNavigate('about')}
                 className="px-6 py-3 font-display uppercase tracking-wider text-xs font-bold bg-brand-navy hover:bg-brand-orange text-white rounded transition-colors cursor-pointer"
               >
-                Read Travis’s Story
+                Read Our Story
               </button>
               <button
                 onClick={() => onNavigate('quote')}

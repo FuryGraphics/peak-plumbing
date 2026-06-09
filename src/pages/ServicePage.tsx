@@ -86,10 +86,10 @@ export default function ServicePage({ currentRoute, onNavigate }: ServicePagePro
               Immediate Assistance Area
             </span>
             <h2 className="font-display text-2.5xl sm:text-3.5xl font-black text-red-600 uppercase leading-none">
-              CALL TRAVIS DIRECTLY AT (208) 897-1389
+              CALL US DIRECTLY AT (208) 897-1389
             </h2>
             <p className="text-xs sm:text-sm font-sans text-gray-600 max-w-xl mx-auto leading-relaxed">
-              For leaking standard hot water tanks, sub-zero pipe fractures, severe household sewage backups, and structural flooding. If you are experiencing water pooling right now, shut off your main line and dial Travis.
+              For leaking standard hot water tanks, sub-zero pipe fractures, severe household sewage backups, and structural flooding. If you are experiencing water pooling right now, shut off your main line and call us.
             </p>
             <div>
               <a
@@ -162,7 +162,7 @@ export default function ServicePage({ currentRoute, onNavigate }: ServicePagePro
                 </div>
               </div>
               <p className="text-xs text-gray-500 font-sans leading-relaxed">
-                Provide your contact points below. Travis Zohner or our billing deputy will review scheduling and reach you within 2 hours.
+                Provide your contact points below. Our team will review scheduling and reach you within 2 hours.
               </p>
             </div>
 
