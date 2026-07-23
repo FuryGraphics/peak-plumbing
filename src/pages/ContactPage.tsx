@@ -1,5 +1,5 @@
+import { useEffect } from 'react';
 import { Route } from '../types';
-import LeadForm from '../components/LeadForm';
 import {
   MapPin,
   Phone,
@@ -15,6 +15,18 @@ interface ContactPageProps {
 }
 
 export default function ContactPage({ onNavigate }: ContactPageProps) {
+  // Load the CaseClimb form embed script so the inline form resizes correctly
+  useEffect(() => {
+    const existing = document.querySelector<HTMLScriptElement>(
+      'script[src="https://services.caseclimb.com/js/form_embed.js"]'
+    );
+    if (existing) return;
+    const script = document.createElement('script');
+    script.src = 'https://services.caseclimb.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
+
   const operatingHours = [
     { day: 'Monday', hours: '6:00 AM – 9:00 PM', label: 'Office Available' },
     { day: 'Tuesday', hours: '6:00 AM – 9:00 PM', label: 'Office Available' },
@@ -151,7 +163,23 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
               </p>
             </div>
 
-            <LeadForm type="contact" defaultService="repair" onSuccessNavigate={onNavigate} />
+            <iframe
+              src="https://services.caseclimb.com/widget/form/VgCxqWMnXuR2ExW2MMex"
+              style={{ width: '100%', height: '700px', border: 'none', borderRadius: '10px' }}
+              id="inline-VgCxqWMnXuR2ExW2MMex"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Website Form (Peak Plumbing Company Inc)"
+              data-height="undefined"
+              data-layout-iframe-id="inline-VgCxqWMnXuR2ExW2MMex"
+              data-form-id="VgCxqWMnXuR2ExW2MMex"
+              title="Website Form (Peak Plumbing Company Inc)"
+            />
           </div>
         </div>
       </section>
